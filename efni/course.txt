@@ -1,0 +1,39 @@
+Námskeið
+Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!
+Mynd af Prílihúsinu
+
+Almennar upplýsingar
+Nafn:
+Heimilisfang:
+Aldur:
+Námskeið:
+	V0 - V1
+	V2 - V4
+	V5 - V7
+	Krakkanámskeið
+	Fjallaklifur
+
+Greiðsluupplýsingar
+Kortanúmer:
+Korthafi:
+Gildistími:
+Mán
+	01
+	02
+	03
+	04
+	05
+	06
+	07
+	08
+	09
+	10
+	11
+	12
+Ár
+	2019
+	2020
+	2021
+	2022
+
+Skrá
