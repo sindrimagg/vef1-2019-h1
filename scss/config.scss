@@ -1,1 +1,25 @@
 // TODO stillingar hér
+$max-width: 1200px;
+$font-size: 16px;
+$black:#000000;
+$white: #fffcf2;
+$orange: #ff5000;
+$blue: #00b7ff;
+
+$max-width: 1200px;
+$gutter: 20px;
+
+@mixin row() {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -($gutter / 2);
+  margin-left: -($gutter / 2);
+}
+
+@mixin columns($col: 1) {
+  width: ($col / 12 * 100) * 1%;
+
+  padding-right: $gutter / 2;
+  padding-left: $gutter / 2;
+}
+

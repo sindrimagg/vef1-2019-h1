@@ -1,0 +1,35 @@
+{
+  "name": "vef1-2019-h1",
+  "version": "1.0.0",
+  "description": "Fyrra hópverkefni í vefforritun 1, unnið af Jón Gunnari, Sindra og Ægi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser-sync": "browser-sync start --server --files staff.html styles.css",
+    "sass": "node-sass --source-map-embed styles.scss styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch styles.scss styles.css",
+    "dev": "npm-run-all --parallel sass browser-sync",
+    "lint-scss": "stylelint styles.scss --syntax scss"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindrimagg/vef1-2019-h1.git"
+  },
+  "author": "Jón Gunnar Hannesson, Sindri Magnússon, Ægir Örn Kristjánsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sindrimagg/vef1-2019-h1/issues"
+  },
+  "homepage": "https://github.com/sindrimagg/vef1-2019-h1#readme",
+  
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "stylelint": "^9.10.1",
+    "stylelint-config-primer": "^8.2.1"
+  },
+  "dependencies": {
+    "@primer/css": "^13.1.0"
+  }
+}
