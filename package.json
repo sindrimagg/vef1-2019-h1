@@ -6,12 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser-sync": "browser-sync start --server --files index.html styles.css pages/*.html",
-<<<<<<< HEAD
-    "sass": "node-sass --source-map-embed styles.scss styles.css",
-    "sass-watch": "node-sass --source-map-embed --watch styles.scss styles.css",
-=======
     "sass": "node-sass --source-map-embed styles.scss styles.css -w",
->>>>>>> 6f05467fcceeb39cf4ab305febb860f4a70fd2a2
     "dev": "npm-run-all --parallel sass browser-sync",
     "lint-scss": "stylelint styles.scss"
   }, 
