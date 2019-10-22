@@ -17,7 +17,12 @@ html { /* stylelint-disable-line */
   // TODO fleiri grunn stillingar
 }
 
+main {
+  max-width: $max-width;
+  margin: auto;
+  padding: 0 20px;
+}
+
 // TODO sækja allar sass skrár
 @import "scss/flipcards";
 @import "scss/products";
-@import "scss/course";

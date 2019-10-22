@@ -1,13 +1,48 @@
-.products__main {
-    background: black;
-    max-width: 1200px;
-    margin: 0 auto;
+@import "config";
+
+.products {
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__col {
+        display: flex;
+        width: 100%;
+        @media (min-width: 800px) {
+            @include columns(6);
+        }
+        @media (min-width: 1000px) {
+            @include columns(4);
+        }
+    }
 }
 
-.products__row {
-    display: flex;
-}
+.product {
+    &__img {
+        max-width: 100px;
+    }
 
-.products__col {
-    display: flex;
+    &__image {
+        max-width: 10px;
+    }
+
+    &__title {
+
+    }
+
+    &__text {
+
+    }
+
+    &__price {
+
+    }
+
+    &__form {   
+
+    }
+
+    &__button {
+
+    }
 }
