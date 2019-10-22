@@ -35,7 +35,7 @@
         height: 100%;
         position: relative;
         text-align: center;
-        transition: transform 0.8s;
+        transition: transform 0.2s ease-in-out;
         transform-style: preserve-3d;
     }
     &:hover &__inner{
