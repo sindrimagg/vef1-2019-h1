@@ -6,125 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vörur</title>
 
-    <link rel="stylesheet" href="../grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../grid.css">
 </head>
 
 <body>
+    <header>
+
+    </header>
     <main>
         <div class="products">
-            <div class="products__row">
-                <div class="products__col">
-                    <div class="product">
-                        <div class="product__image">
-                            <img class="product__img" src="../img/Backpack.jpg" alt="Backpack">
-                        </div>
-                        <h2 class="product__title">Bakpoki</h2>
-                        <p class="product__text">Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
-                        <p class="product__price">49.900kr.-</p>
-                        <form class="product__form">
-                            <label>
-                                Fjöldi:
-                                <input type="number" value="1" min="1">
-                            </label>
-                            <button class="product__button">Setja í körfu</button>
-                        </form>
-                    </div>
+
+            <div class="product">
+                <div class="product__image">
+                    <img class="product__img" src="../img/Backpack.jpg" alt="Backpack">
                 </div>
-                <div class="products__col">
-                    <div class="product">
-                        <div class="product__image">
-                            <img class="product__img" src="../img/chalkbag.jpg" alt="Chalk bag">
-                        </div>
-                        <h2 class="product__title">Kalkpoki</h2>
-                        <p class="product__text">Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
-                        <p class="product__price">4.900 kr.-</p>
-                        <form class="product__form">
-                            <label>
-                                Fjöldi:
-                                <input type="number" value="1" min="1">
-                            </label>
-                            <button class="product__button">Setja í körfu</button>
-                        </form>
-                    </div>
+                <div class="product__info">
+                    <h2 class="product__title">Bakpoki</h2>
+                    <p class="product__text">Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.
+                    </p>
+                    <p class="product__price">49.900 kr.-</p>
                 </div>
-                <div class="products__col">
-                    <div class="product">
-                        <div class="product__image">
-                            <img class="product__img" src="../img/climbingrope.jpg" alt="Climbing rope">
-                        </div>
-                        <h2 class="product__title">Klifurlína</h2>
-                        <p class="product__text">Farðu upp öll fjöll með þessari 200m klifurlínu.</p>
-                        <p class="product__price">39.900 kr.-</p>
-                        <form class="product__form">
-                            <label>
-                                Fjöldi:
-                                <input type="number" value="1" min="1">
-                            </label>
-                            <button class="product__button">Setja í körfu</button>
-                        </form>
-                    </div>
+                <form class="product__form">
+                    <label class="product__label" for="backpack">
+                        Fjöldi:</label>
+                    <input class="product__input" id="backpack" type="number" value="1" min="1">
+                    <button class="product__button">Setja í körfu</button>
+                </form>
+            </div>
+
+            <div class="product">
+                <div class="product__image">
+                    <img class="product__img" src="../img/chalkbag.jpg" alt="Chalk bag">
                 </div>
-                <div class="products__col">
-                    <div class="product">
-                        <div class="product__image">
-                            <img class="product__img" src="../img/shoes.jpg" alt="Shoes">
-                        </div>
-                        <h2 class="product__title">Klifurskór</h2>
-                        <p class="product__text">Klifurskór með nanótækni sem gerir þér kleift að klifra upp slétta
-                            lóðrétta
-                            veggi.</p>
-                        <p class="product__price">19.900 kr.-</p>
-                        <form class="product__form">
-                            <label>
-                                Fjöldi:
-                                <input type="number" value="1" min="1">
-                            </label>
-                            <button class="product__button">Setja í körfu</button>
-                        </form>
-                    </div>
+                <div class="product__info">
+                    <h2 class="product__title">Kalkpoki</h2>
+                    <p class="product__text">Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
+                    <p class="product__price">4.900 kr.-</p>
                 </div>
-                <div class="products__col">
-                    <div class="product">
-                        <div class="product__image">
-                            <img class="product__img" src="../img/Dring.jpg" alt="Dring">
-                        </div>
-                        <h2 class="product__title">Karabína 10 stk.</h2>
-                        <p class="product__text">Þessi karbína hefur styrkleika til þess að halda á 10 tonnum. Það er
-                            meira en
-                            20 snorlax pókemonar.</p>
-                        <p class="product__price">10.900 kr.-</p>
-                        <form class="product__form">
-                            <label>
-                                Fjöldi:
-                                <input type="number" value="1" min="1">
-                            </label>
-                            <button class="product__button">Setja í körfu</button>
-                        </form>
-                    </div>
+                <form class="product__form">
+                    <label class="product__label" for="chalkbag">
+                        Fjöldi:</label>
+                    <input class="product__input" id="chalkbag" type="number" value="1" min="1">
+                    <button class="product__button">Setja í körfu</button>
+                </form>
+            </div>
+
+            <div class="product">
+                <div class="product__image">
+                    <img class="product__img" src="../img/climbingrope.jpg" alt="Climbing rope">
                 </div>
-                <div class="products__col">
-                    <div class="product">
-                        <div class="product__image">
-                            <img class="product__img" src="../img/Harness.jpg" alt="Harness">
-                        </div>
-                        <h2 class="product__title">Klifurbelti</h2>
-                        <p class="product__text">Hágæða klifurbelti með nanótækni og innbyggt bluetooth til þess að
-                            tengjast
-                            símanum þínum.</p>
-                        <p class="product__price">1.999.900 kr.-</p>
-                        <form class="product__form">
-                            <label>
-                                Fjöldi:
-                                <input type="number" value="1" min="1">
-                            </label>
-                            <button class="product__button">Setja í körfu</button>
-                        </form>
-                    </div>
+                <div class="product__info">
+                    <h2 class="product__title">Klifurlína</h2>
+                    <p class="product__text">Farðu upp öll fjöll með þessari 200m klifurlínu.</p>
+                    <p class="product__price">39.900 kr.-</p>
                 </div>
+                <form class="product__form">
+                    <label class="product__label" for="climbingrope">
+                        Fjöldi:</label>
+                    <input class="product__input" id="climbingrope" type="number" value="1" min="1">
+                    <button class="product__button">Setja í körfu</button>
+                </form>
+            </div>
+
+            <div class="product">
+                <div class="product__image">
+                    <img class="product__img" src="../img/shoes.jpg" alt="Shoes">
+                </div>
+                <div class="product__info">
+                    <h2 class="product__title">Klifurskór</h2>
+                    <p class="product__text">Klifurskór með nanótækni sem gerir þér kleift að klifra upp slétta
+                        lóðrétta
+                        veggi.</p>
+                    <p class="product__price">19.900 kr.-</p>
+                </div>
+                <form class="product__form">
+                    <label class="product__label" for="shoes">
+                        Fjöldi:</label>
+                    <input class="product__input" id="shoes" type="number" value="1" min="1">
+                    <button class="product__button">Setja í körfu</button>
+                </form>
+            </div>
+
+            <div class="product">
+                <div class="product__image">
+                    <img class="product__img" src="../img/Dring.jpg" alt="Dring">
+                </div>
+                <div class="product__info">
+                    <h2 class="product__title">Karabína 10 stk.</h2>
+                    <p class="product__text">Þessi karbína hefur styrkleika til þess að halda á 10 tonnum. Það
+                        er
+                        meira en
+                        20 snorlax pókemonar.</p>
+                    <p class="product__price">10.900 kr.-</p>
+                </div>
+                <form class="product__form">
+                    <label class="product__label" for="dring">
+                        Fjöldi:</label>
+                    <input class="product__input" id="dring" type="number" value="1" min="1">
+                    <button class="product__button">Setja í körfu</button>
+                </form>
+            </div>
+
+            <div class="product">
+                <div class="product__image">
+                    <img class="product__img" src="../img/Harness.jpg" alt="Harness">
+                </div>
+                <div class="product__info">
+                    <h2 class="product__title">Klifurbelti</h2>
+                    <p class="product__text">Hágæða klifurbelti með nanótækni og innbyggt bluetooth til þess að
+                        tengjast
+                        símanum þínum.</p>
+                    <p class="product__price">1.999.900 kr.-</p>
+                </div>
+                <form class="product__form">
+                    <label class="product__label" for="harness">
+                        Fjöldi:</label>
+                    <input class="product__input" id="harness" type="number" value="1" min="1">
+                    <button class="product__button">Setja í körfu</button>
+                </form>
             </div>
         </div>
     </main>
+    <footer>
+        
+    </footer>
 </body>
 
 </html>
