@@ -14,10 +14,12 @@
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
+  font-size: 16px;
   // TODO fleiri grunn stillingar
 }
 
 main {
+  font-family: $font-main;
   max-width: $max-width;
   margin: auto;
   padding: 0 $gutter;
