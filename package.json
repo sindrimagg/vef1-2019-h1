@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser-sync": "browser-sync start --server --files index.html styles.css pages/*.html",
     "sass": "node-sass --source-map-embed styles.scss styles.css -w",
-    "dev": "concurrently npm:sass npm:browser-sync",
-    "lint-scss": "stylelint *.scss scss/*.scss --syntax scss"
+    "lint": "stylelint *.scss scss/*.scss --syntax scss",
+    "dev": "concurrently npm:sass npm:browser-sync"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/sindrimagg/vef1-2019-h1#readme",
   "devDependencies": {
-    "@primer/css": "^13.1.0",
     "browser-sync": "^2.26.7",
     "node-sass": "^4.12.0",
     "concurrently": "^5.0.0",

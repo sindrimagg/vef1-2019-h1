@@ -1,13 +1,60 @@
-.products__main {
-    background: black;
-    max-width: 1200px;
-    margin: 0 auto;
+@import "config";
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.products__row {
+.product {
     display: flex;
-}
+    flex-direction: column;
 
-.products__col {
-    display: flex;
+    width: 100%;
+    @media (min-width: 700px) {
+        @include columns(6);
+    }
+    @media (min-width: 1000px) {
+         @include columns(4);
+    }
+
+    &__image {
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__info {
+    }
+
+    &__title {
+        font-family: $font-heading;
+        font-size: 2.25em;
+    }
+
+    &__text {
+    }
+
+    &__price {
+        font-size: 1.3125em;
+        font-weight: 700;
+        font-family: $font-heading;
+    }
+
+    &__form {   
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__label {
+        width: 100%;
+    }
+
+    &__input {
+        flex: 1;
+    }
+
+    &__button {
+        cursor: pointer;
+    }
 }

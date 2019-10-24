@@ -1,5 +1,4 @@
 // TODO stillingar hér
-$max-width: 1200px;
 $font-size: 16px;
 $black:#000000;
 $white: #fffcf2;
@@ -8,6 +7,9 @@ $blue: #00b7ff;
 
 $max-width: 1200px;
 $gutter: 20px;
+
+$font-main: 'Open Sans', helvetica, arial, sans-serif;
+$font-heading: 'Oswald', Verdana, serif;
 
 @mixin row() {
   display: flex;
