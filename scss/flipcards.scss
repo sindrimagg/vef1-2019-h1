@@ -5,7 +5,11 @@
     justify-content: space-around;
     max-width: $max-width;
     margin: 0 auto;
-
+    padding: 0 $gutter;
+    @media(min-width: $max-width){
+    padding: 0
+    ;
+    }
     &__rows{
 
         @include row();

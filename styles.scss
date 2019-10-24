@@ -16,6 +16,10 @@ html { /* stylelint-disable-line */
   overflow-x: hidden;
   // TODO fleiri grunn stillingar
 }
+main{ /* stylelint-disable-line*/
+  max-width: $max-width;
+  margin: 0 auto;
+}
 
 
 
