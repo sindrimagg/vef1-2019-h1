@@ -20,7 +20,7 @@ html { /* stylelint-disable-line */
 main {
   max-width: $max-width;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 $gutter;
 }
 
 // TODO sækja allar sass skrár
