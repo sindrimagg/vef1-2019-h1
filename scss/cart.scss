@@ -69,7 +69,7 @@
     }
     &__input{
       display: flex;
-      max-width: 200px;
+      max-width: $gutter*4;
       margin-right: $gutter;
     }
   }
