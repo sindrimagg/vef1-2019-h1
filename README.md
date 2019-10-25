@@ -5,6 +5,6 @@
 ## TODO
 
 - Gera README
-- breyta current--item í header í cart.html
 - laga button í námskeið
 - flipcards virkar ekki í firefox?
+- laga lint
