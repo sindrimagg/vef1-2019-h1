@@ -55,10 +55,6 @@
             @media (min-width: 700px) {
                 @include columns(6);
                 padding-right: $gutter*3;
-
-                // .--col1 {
-                //     @include columns(1);
-                // }
             }
         }
         
@@ -92,9 +88,6 @@
 
                 &__label {
                     font-family:$font-main;
-                }
-
-                &__select {
                 }
             }
 
