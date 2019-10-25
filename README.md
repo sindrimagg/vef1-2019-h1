@@ -2,7 +2,7 @@
 
 ## jugguhu, sindrimagg, aegirok
 
-##TODO
+## TODO
 
 - Gera README
 - breyta current--item í header í cart.html
