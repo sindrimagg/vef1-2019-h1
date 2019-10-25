@@ -37,7 +37,9 @@
     @include row();
   }
   &__col{
-    @media(min-width: 700px){
+    @include columns(12);
+
+    @media (min-width: 700px){
       @include columns(6);
     }
   }

@@ -1,23 +1,26 @@
 @import "config";
+
 .staff-cards {
   display: flex;
-  position: relative;
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: $max-width;
-  margin: 0 auto;
   padding: 0 $gutter;
-  @media(min-width: $max-width) {
+  margin: 0 auto;
+
+  @media (min-width: $max-width) {
     padding: 0;
   }
+
   &__rows {
 
     @include row();
   }
+
   &__col {
     @include columns(12);
 
-    @media(min-width:800px) {
+    @media (min-width: 800px) {
       @include columns(6);
     }
   }
@@ -28,7 +31,6 @@
   flex-direction: column;
   background-color: transparent;
   perspective: 1000px;
-  min-height: 100%;
   margin: $gutter*2 0; 
 
   &__image {
