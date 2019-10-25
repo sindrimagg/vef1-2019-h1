@@ -31,10 +31,11 @@
 
     &__title {
         font-family: $font-heading;
+        margin-bottom: $gutter;
     }
 
     &__text {
-
+        margin-bottom: 3*$gutter;
     }
 
     &__img {
@@ -43,7 +44,9 @@
 
     &__form {
         display: flex;
+        flex:1;
         flex-wrap: wrap;
+        justify-content: space-between;
         
         &__col {
             display: flex;
@@ -51,51 +54,63 @@
             @include columns(12);
             @media (min-width: 700px) {
                 @include columns(6);
+                padding-right: $gutter*3;
+
+                // .--col1 {
+                //     @include columns(1);
+                // }
             }
         }
         
         &__title {
             font-family: $font-heading;
+            margin: $gutter 0;
         }
 
         &__question {
             display: flex;
+            margin-bottom: $gutter/2;
         }
 
         &__label {
-            flex: 1;
+            font-family: $font-main;
+            width: 40%;
         }
 
         &__input {
-            flex: 2;
+            font-family: $font-main;
             display: flex;
             justify-content: space-between;
+            width: 60%;
+            border: 0.5px solid #000;
+            border-radius: 3px;
 
             &__div {
                 display: flex;
                 width: 45%;
+                justify-content: space-between;
 
                 &__label {
-
+                    font-family:$font-main;
                 }
 
                 &__select {
-
                 }
             }
 
         }
 
         &__button {
-            margin: 0 auto;
-            cursor: pointer;
-            background: black;
+            margin: $gutter auto -10px auto;
             border: 0;
         }
 
     }
-
     
+}
+
+.--noborder {
+    border: 0px;
 }
 
 
