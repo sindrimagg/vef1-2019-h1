@@ -6,5 +6,4 @@
 
 - Gera README
 - laga button í námskeið
-- flipcards virkar ekki í firefox?
 - laga lint
