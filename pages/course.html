@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="is">
 
-<head>
+  <head>
     <meta charset="utf-8">
     <title>Námskeið</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
     <header class="header">
       <h1 class="header__title">Prílihúsið</h1>
@@ -23,87 +23,87 @@
         </div>
       </nav>
     </header>
-        <section>
-            <h2>Námskeið</h2>
-            <p>Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri
-                annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
+    <section>
+      <h2>Námskeið</h2>
+      <p>Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri
+      annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
+      <div>
+        <img src="../img/climbing-gym.jpg" alt="Climbing gym">
+      </div>
+    </section>
+    <section>
+      <form>
+        <div>
+          <h2>Almennar upplýsingar</h2>
+          <div>
+            <label for="name">Nafn:</label>
+            <input type="text" id="name" name="name" required autofocus>
+          </div>
+          <div>
+            <label for="address">Heimilisfang:</label>
+            <input type="text" id="address" name="address" required>
+          </div>
+          <div>
+            <label for="age">Aldur:</label>
+            <input type="text" id="age" name="age" required>
+          </div>
+          <div>
+            <label for="course">Námskeið:</label>
+            <select id="course" required>
+              <option value="">-Vinsamlegast veljið-</option>
+              <option value="0-1">V0 - V1</option>
+              <option value="2-4">V2 - V4</option>
+              <option value="5-7">V5 - V7</option>
+              <option value="kidscourse">Krakkanámskeið</option>
+              <option value="mountainclimbing">Fjallaklifur</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <h2>Greiðsluupplýsingar</h2>
+          <div>
+            <label for="creditnumber">Kortanúmer:</label>
+            <input type="text" id="creditnumber" name="creditnumber" required>
+          </div>
+          <div>
+            <label for="creditholder">Korthafi:</label>
+            <input type="text" id="creditholder" name="creditholder" required>
+          </div>
+          <div>
             <div>
-                <img src="../img/climbing-gym.jpg" alt="Climbing gym">
+              <span>Gildistími:</span>
+              <label for="month">Mán</label>
+              <select id="month" required>
+                <option value="">--</option>
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+                <option value="6">06</option>
+                <option value="7">07</option>
+                <option value="8">08</option>
+                <option value="9">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
             </div>
-        </section>
-        <section>
-            <form>
-                <div>
-                    <h2>Almennar upplýsingar</h2>
-                    <div>
-                        <label for="name">Nafn:</label>
-                        <input type="text" id="name" name="name" required autofocus>
-                    </div>
-                    <div>
-                        <label for="address">Heimilisfang:</label>
-                        <input type="text" id="address" name="address" required>
-                    </div>
-                    <div>
-                        <label for="age">Aldur:</label>
-                        <input type="text" id="age" name="age" required>
-                    </div>
-                    <div>
-                        <label for="course">Námskeið:</label>
-                        <select id="course" required>
-                            <option value="">-Vinsamlegast veljið-</option>
-                            <option value="0-1">V0 - V1</option>
-                            <option value="2-4">V2 - V4</option>
-                            <option value="5-7">V5 - V7</option>
-                            <option value="kidscourse">Krakkanámskeið</option>
-                            <option value="mountainclimbing">Fjallaklifur</option>
-                        </select>
-                    </div>
-                </div>
-                <div>
-                    <h2>Greiðsluupplýsingar</h2>
-                    <div>
-                        <label for="creditnumber">Kortanúmer:</label>
-                        <input type="text" id="creditnumber" name="creditnumber" required>
-                    </div>
-                    <div>
-                        <label for="creditholder">Korthafi:</label>
-                        <input type="text" id="creditholder" name="creditholder" required>
-                    </div>
-                    <div>
-                        <div>
-                            <span>Gildistími:</span>
-                            <label for="month">Mán</label>
-                            <select id="month" required>
-                                <option value="">--</option>
-                                <option value="1">01</option>
-                                <option value="2">02</option>
-                                <option value="3">03</option>
-                                <option value="4">04</option>
-                                <option value="5">05</option>
-                                <option value="6">06</option>
-                                <option value="7">07</option>
-                                <option value="8">08</option>
-                                <option value="9">09</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="year">Ár</label>
-                            <select id="year" required>
-                                <option value="">----</option>
-                                <option value="2019">2019</option>
-                                <option value="2020">2020</option>
-                                <option value="2021">2021</option>
-                                <option value="2022">2022</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <button>Skrá</button>
-            </form>
-        </section>
+            <div>
+              <label for="year">Ár</label>
+              <select id="year" required>
+                <option value="">----</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button>Skrá</button>
+      </form>
+    </section>
     </main>
     <footer class="footer">
       <div class="footer__container">
@@ -150,7 +150,10 @@
           </div>
         </div>
       </div>
+      <div class="footer__copyright">
+        <p>© 2019 Prílihúsið</p>
+      </div>
     </footer>
-</body>
+  </body>
 
 </html>

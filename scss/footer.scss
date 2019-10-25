@@ -24,7 +24,6 @@
   text-decoration: none;
 }
 
-
 .footer__row {
   display: flex;
   margin: $gutter / 2 0;
@@ -38,6 +37,11 @@
 
 .footer__title {
   margin-bottom: $gutter;
+}
+
+.footer__copyright {
+  margin: $gutter;
+  text-align: center;
 }
 
 @media (min-width: 1000px) {
