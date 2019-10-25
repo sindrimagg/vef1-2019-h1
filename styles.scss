@@ -21,6 +21,7 @@ main { /*stylelint-disable-line*/
   font-family: $font-main;
   max-width: $max-width;
   margin: auto;
+}
 
 // TODO sækja allar sass skrár
 @import "scss/flipcards";
@@ -30,3 +31,4 @@ main { /*stylelint-disable-line*/
 @import "scss/header.scss";
 @import "scss/footer.scss";
 @import "scss/cart.scss";
+
