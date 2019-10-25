@@ -1,9 +1,13 @@
 .grid {
   display: flex;
+<<<<<<< HEAD
   max-width: $max-width;
   padding: 0 $gutter;
   margin: 0 auto;
   flex-driection: column;
+=======
+  flex-direction: column;
+>>>>>>> b5373f7485c073ca5a4dcdee343ec4b74b564a2e
   flex-wrap: wrap;
   align-items: center;
 }

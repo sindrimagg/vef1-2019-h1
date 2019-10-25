@@ -10,7 +10,7 @@
     max-width: 200px;
     border: 0.5px $black solid;
     border-radius: 3px;
-
+    margin-right: $gutter/2;
     transition: background-color $transition,
                 border-color $transition;
 }

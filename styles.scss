@@ -22,6 +22,7 @@ main { /*stylelint-disable-line*/
   max-width: $max-width;
   margin: auto;
 }
+
 // TODO sækja allar sass skrár
 @import "scss/flipcards";
 @import "scss/products";
