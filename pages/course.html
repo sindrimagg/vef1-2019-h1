@@ -44,25 +44,26 @@
         <img class="course__img" src="../img/climbing-gym.jpg" alt="Climbing gym">
       </div>
     </section>
-    <section>
-      <form class="course__row">
-        <div class="course__col--col5">
-          <h2 class="course__title">Almennar upplýsingar</h2>
-          <div class="course__question">
-            <label class="course__label" for="name">Nafn:</label>
-            <input class="course__input" type="text" id="name" name="name" required autofocus>
+
+    <section class="course__row">
+      <form class="course__form">
+        <div class="course__form__col">
+          <h2 class="course__form__title">Almennar upplýsingar</h2>
+          <div class="course__form__question">
+            <label class="course__form__label" for="name">Nafn:</label>
+            <input class="course__form__input" type="text" id="name" name="name" required autofocus>
           </div>
-          <div class="course__question">
-            <label class="course__label" for="address">Heimilisfang:</label>
-            <input class="course__input" type="text" id="address" name="address" required>
+          <div class="course__form__question">
+            <label class="course__form__label" for="address">Heimilisfang:</label>
+            <input class="course__form__input" type="text" id="address" name="address" required>
           </div>
-          <div class="course__question">
-            <label class="course__label" for="age">Aldur:</label>
-            <input class="course__input" type="text" id="age" name="age" required>
+          <div class="course__form__question">
+            <label class="course__form__label" for="age">Aldur:</label>
+            <input class="course__form__input" type="text" id="age" name="age" required>
           </div>
-          <div class="course__question">
-            <label class="course__label" for="course">Námskeið:</label>
-            <select class="course__input" id="course" required>
+          <div class="course__form__question">
+            <label class="course__form__label" for="course">Námskeið:</label>
+            <select class="course__form__input" id="course" required>
               <option value="">-Vinsamlegast veljið-</option>
               <option value="0-1">V0 - V1</option>
               <option value="2-4">V2 - V4</option>
@@ -73,22 +74,22 @@
           </div>
         </div>
         <div class="--col1"></div>
-        <div class="course__col--col5">
-          <h2 class="course__title">Greiðsluupplýsingar</h2>
-          <div class="course__question">
-            <label class="course__label" for="creditnumber">Kortanúmer:</label>
-            <input class="course__input" type="text" id="creditnumber" name="creditnumber" required>
+        <div class="course__form__col">
+          <h2 class="course__form__title">Greiðsluupplýsingar</h2>
+          <div class="course__form__question">
+            <label class="course__form__label" for="creditnumber">Kortanúmer:</label>
+            <input class="course__form__input" type="text" id="creditnumber" name="creditnumber" required>
           </div>
-          <div class="course__question">
-            <label class="course__label" for="creditholder">Korthafi:</label>
-            <input class="course__input" type="text" id="creditholder" name="creditholder" required>
+          <div class="course__form__question">
+            <label class="course__form__label" for="creditholder">Korthafi:</label>
+            <input class="course__form__input" type="text" id="creditholder" name="creditholder" required>
           </div>
-          <div class="course__question">
-            <span class="course__label">Gildistími:</span>
-            <div class="course__input">
-              <div class="course__input__div">
-                <label class="course__input__div__label" for="month">Mán</label>
-                <select class="course__input__div__input" id="month" required>
+          <div class="course__form__question">
+            <span class="course__form__label">Gildistími:</span>
+            <div class="course__form__input">
+              <div class="course__form__input__div">
+                <label class="course__form__input__div__label" for="month">Mán</label>
+                <select class="course__form__input__div__select" id="month" required>
                   <option value="">--</option>
                   <option value="1">01</option>
                   <option value="2">02</option>
@@ -104,9 +105,9 @@
                   <option value="12">12</option>
                 </select>
               </div>
-              <div class="course__input__div">
-                <label class="course__input__div__label" for="year">Ár</label>
-                <select class="course__input__div__input" id="year" required>
+              <div class="course__form__input__div">
+                <label class="course__form__input__div__label" for="year">Ár</label>
+                <select class="course__form__input__div__select" id="year" required>
                   <option value="">----</option>
                   <option value="2019">2019</option>
                   <option value="2020">2020</option>
@@ -118,7 +119,7 @@
           </div>
         </div>
         <div class="--col1"></div>
-        <button class="course__button">Skrá</button>
+        <button class="course__form__button">Skrá</button>
       </form>
     </section>
   </main>

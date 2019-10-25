@@ -26,17 +26,13 @@
     
         @media (min-width: 700px) {
             @include columns(6);
-            &--col5 {
-                @include columns(5);
-            }
         }
-        
     }
 
     &__title {
         font-family: $font-heading;
     }
-    
+
     &__text {
 
     }
@@ -45,41 +41,61 @@
         width: 100%;
     }
 
-    &__question {
+    &__form {
         display: flex;
-    }
-
-    &__label {
-        flex: 1;
-    }
-
-    &__input {
-        flex: 2;
-        display: flex;
-        justify-content: space-between;
-
-        &__div {
+        flex-wrap: wrap;
+        
+        &__col {
             display: flex;
-            width: 45%;
+            flex-direction: column;
+            @include columns(12);
+            @media (min-width: 700px) {
+                @include columns(6);
+            }
+        }
+        
+        &__title {
+            font-family: $font-heading;
+        }
 
-            &__label {
-                flex: 1;
+        &__question {
+            display: flex;
+        }
+
+        &__label {
+            flex: 1;
+        }
+
+        &__input {
+            flex: 2;
+            display: flex;
+            justify-content: space-between;
+
+            &__div {
+                display: flex;
+                width: 45%;
+
+                &__label {
+
+                }
+
+                &__select {
+
+                }
             }
 
+        }
+
+        &__button {
+            margin: 0 auto;
+            cursor: pointer;
+            background: black;
+            border: 0;
         }
 
     }
 
     
-
-    &__button {
-        margin: 0 auto;
-        cursor: pointer;
-        background: $blue;
-        border: 0;
-    }
+}
 }
 
-.--col1 {
-    @include columns();
-}
