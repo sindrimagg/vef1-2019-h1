@@ -20,52 +20,52 @@
     flex-direction: column;
     @include columns(12);
 
+  width: 100%;
+  @media (min-width: 700px) {
+    @include columns(6);
+  }
+  @media (min-width: 1000px) {
+    @include columns(4);
+  }
+
+  &__image {
+  }
+
+  &__img {
     width: 100%;
-    @media (min-width: 700px) {
-        @include columns(6);
-    }
-    @media (min-width: 1000px) {
-         @include columns(4);
-    }
+  }
 
-    &__image {
-    }
+  &__info {
+  }
 
-    &__img {
-        width: 100%;
-    }
+  &__title {
+    font-family: $font-heading;
+    font-size: 2.25em;
+  }
 
-    &__info {
-    }
+  &__text {
+  }
 
-    &__title {
-        font-family: $font-heading;
-        font-size: 2.25em;
-    }
+  &__price {
+    font-size: 1.3125em;
+    font-weight: 700;
+    font-family: $font-heading;
+  }
 
-    &__text {
-    }
+  &__form {   
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    &__price {
-        font-size: 1.3125em;
-        font-weight: 700;
-        font-family: $font-heading;
-    }
+  &__label {
+    width: 100%;
+  }
 
-    &__form {   
-        display: flex;
-        flex-wrap: wrap;
-    }
+  &__input {
+    flex: 1;
+  }
 
-    &__label {
-        width: 100%;
-    }
-
-    &__input {
-        flex: 1;
-    }
-
-    &__button {
-        cursor: pointer;
-    }
+  &__button {
+    cursor: pointer;
+  }
 }

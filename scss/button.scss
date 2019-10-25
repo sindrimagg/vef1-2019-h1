@@ -1,22 +1,23 @@
 @import "config";
 
-.button{
-    font-family: $font-main;
-    background: #f0f0f0 url("../img/cart.svg") no-repeat 3px 50%;
-    background-size: 20px;
-    padding: 3px;
-    padding-left: 6px + 20px;
-    display: flex;
-    max-width: 200px;
-    border: 0.5px $black solid;
-    border-radius: 3px;
-
-    transition: background-color $transition,
-                border-color $transition;
+.button {
+  display: flex;
+  max-width: 200px;
+  padding: 3px;
+  padding-left: 6px + 20px;
+  margin-right: $gutter/2;
+  font-family: $font-main;
+  background: #f0f0f0 url("../img/cart.svg") no-repeat 3px 50%;
+  background-size: 20px;
+  border: 0.5px $black solid;
+  border-radius: 3px;
+  transition:
+    background-color $transition,
+    border-color $transition;
 }
 
-.button:hover{
-    cursor: pointer;
-    background-color: $blue;
-    border-color: $blue;
+.button:hover {
+  cursor: pointer;
+  background-color: $blue;
+  border-color: $blue;
 }
