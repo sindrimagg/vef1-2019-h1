@@ -1,4 +1,5 @@
 @import "scss/config";
+
 * {
   padding: 0;
   margin: 0;
@@ -18,9 +19,9 @@ html { /* stylelint-disable-line */
 }
 
 main { /*stylelint-disable-line*/
-  font-family: $font-main;
   max-width: $max-width;
   margin: auto;
+  font-family: $font-main;
 }
 
 // TODO sækja allar sass skrár
@@ -31,4 +32,3 @@ main { /*stylelint-disable-line*/
 @import "scss/header.scss";
 @import "scss/footer.scss";
 @import "scss/cart.scss";
-

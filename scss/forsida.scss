@@ -25,6 +25,7 @@
     display: flex;
     margin: $gutter 0;
     flex-direction: column;
+    align-items: flex-start;
   }
 
   &__img {
@@ -40,8 +41,7 @@
   }
 
   &__link {
-    width: 50%;
-    padding: 1em 0;
+    padding: $gutter 3*$gutter;
     color: $black;
     text-align: center;
     text-decoration: none;
