@@ -1,109 +1,102 @@
 @import "config";
 
-
-
 .course {
+  &__main {
+    padding: 0 10px;
+    @media (min-width: 1200px) {
+      padding: 0;
+    }
+  }
 
-    &__main {
-        padding: 0 10px;
-        @media (min-width: 1200px) {
-            padding: 0;
-        }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    @media (min-width: 1200px) {
+      margin: 0 -10px;
     }
-   
-    &__row {
-        display: flex;
-        flex-wrap: wrap;
-        @media (min-width: 1200px) {
-        margin: 0 -10px;
-        }
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    @include columns(12);
+
+    @media (min-width: 700px) {
+      @include columns(6);
     }
-    
+  }
+
+  &__title {
+    margin-bottom: $gutter;
+    font-family: $font-heading;
+  }
+
+  &__text {
+    margin-bottom: 3*$gutter;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__form {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
     &__col {
-        display: flex;
-        flex-direction: column;
-        @include columns(12);
-    
-        @media (min-width: 700px) {
-            @include columns(6);
-        }
+      display: flex;
+      flex-direction: column;
+      @include columns(12);
+      @media (min-width: 700px) {
+        @include columns(6);
+        padding-right: $gutter*3;
+      }
     }
 
     &__title {
-        font-family: $font-heading;
-        margin-bottom: $gutter;
+      margin: $gutter 0;
+      font-family: $font-heading;
     }
 
-    &__text {
-        margin-bottom: 3*$gutter;
+    &__question {
+      display: flex;
+      margin-bottom: $gutter/2;
     }
 
-    &__img {
-        width: 100%;
+    &__label {
+      width: 40%;
+      font-family: $font-main;
     }
 
-    &__form {
+    &__input {
+      display: flex;
+      width: 60%;
+      font-family: $font-main;
+      justify-content: space-between;
+      border: 0.5px solid #000;
+      border-radius: 3px;
+
+      &__div {
         display: flex;
-        flex:1;
-        flex-wrap: wrap;
+        width: 45%;
         justify-content: space-between;
-        
-        &__col {
-            display: flex;
-            flex-direction: column;
-            @include columns(12);
-            @media (min-width: 700px) {
-                @include columns(6);
-                padding-right: $gutter*3;
-            }
-        }
-        
-        &__title {
-            font-family: $font-heading;
-            margin: $gutter 0;
-        }
+      }
 
-        &__question {
-            display: flex;
-            margin-bottom: $gutter/2;
-        }
-
-        &__label {
-            font-family: $font-main;
-            width: 40%;
-        }
-
-        &__input {
-            font-family: $font-main;
-            display: flex;
-            justify-content: space-between;
-            width: 60%;
-            border: 0.5px solid #000;
-            border-radius: 3px;
-
-            &__div {
-                display: flex;
-                width: 45%;
-                justify-content: space-between;
-
-                &__label {
-                    font-family:$font-main;
-                }
-            }
-
-        }
-
-        &__button {
-            margin: $gutter auto -10px auto;
-            border: 0;
-        }
+      &__div__label {
+        font-family: $font-main;
+      }
 
     }
-    
+
+    &__button {
+      margin: $gutter auto -10px auto;
+      border: 0;
+    }
+  }
 }
 
 .--noborder {
-    border: 0px;
+  border: 0;
 }
-
-
