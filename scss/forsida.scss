@@ -41,7 +41,7 @@
   }
 
   &__link {
-    padding: $gutter 3*$gutter;
+    padding: 0.5*$gutter 3*$gutter;
     color: $black;
     text-align: center;
     text-decoration: none;
@@ -53,6 +53,7 @@
   &__link:hover {
     color: $white;
     background-color: $orange;
+    cursor: pointer;
   }
 }
 
