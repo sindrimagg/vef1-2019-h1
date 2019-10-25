@@ -5,61 +5,61 @@
   flex-direction: column;
   flex-wrap: wrap;
   background-color: $orange;
-}
 
-.header__title {
-  margin: $gutter auto;
-  font-family: $font-heading;
-  font-size: 3 * $font-size;
-}
+  &__title {
+    margin: $gutter auto;
+    font-family: $font-heading;
+    font-size: 3 * $font-size;
+  }
 
-.header__nav {
-  display: flex;
-  max-width: $max-width + $gutter*2;
-  margin: 0 auto;
-  flex-direction: column;
-}
+  &__nav {
+    display: flex;
+    max-width: $max-width + $gutter*2;
+    margin: 0 auto;
+    flex-direction: column;
+  }
 
-.header__nav--fill {
-  display: none;
-}
+  &__nav--fill {
+    display: none;
+  }
 
-.header__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.header__list-item {
-  margin: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-  list-style: none;
-}
+  &__list-item {
+    margin: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+  }
 
-.header__cart,
-.header__nav--fill {
-  padding-left: $gutter * 2;
-  margin: 10px auto;
-  background-image: url("img/cart.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+  &__cart,
+  &__nav--fill {
+    padding-left: $gutter * 2;
+    margin: 10px auto;
+    background-image: url("img/cart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 
-.header__list-item--current {
-  text-decoration: underline;
-  transition: color $transition;
-}
+  &__list-item--current {
+    text-decoration: underline;
+    transition: color $transition;
+  }
 
-.header__link {
-  color: $black;
-  text-decoration: none;
-  transition: color $transition;
-}
+  &__link {
+    color: $black;
+    text-decoration: none;
+    transition: color $transition;
+  }
 
-.header__link:hover,
-.header__list-item--current:hover {
-  color: $white;
+  &__link:hover,
+  &__list-item--current:hover {
+    color: $white;
+  }
 }
 
 @media (min-width: 800px) {
