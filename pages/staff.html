@@ -1,84 +1,146 @@
-<!-- TODO - setja html fyrir header -->
 <!doctype html>
 <html lang="is">
 
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Prílihúsið - Starfsfólk</title>
 
     <link rel="stylesheet" href="../grid.css">
     <link rel="stylesheet" href="../styles.css">
-</head>
+  </head>
 
-<body>
-    <main>
-        <div class="staff-cards">
-            <div class="staff-cards__rows">
-                <div class="staff-cards__col staff-cards__col-6 staff-cards__col-12">
-                    <div class="staff-card">
-                        <div class="staff-card__inner">
-                            <div class="card__face card__face--front">
-                                <img src="../img/Karítas.jpg" alt="Karítas Hrafnsdóttir" class="staff-card__image">
-                            </div>
-                            <div class="card__face card__face--back">
-                                <h2>Karítas Hrafnsdóttir</h2>
-                                <p>Karítas Kennir öll námskeið hjá prílihúsinu. Hún hefur unnið 3 heimsmeistaratitla.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="staff-cards__col">
-                    <div class="staff-card">
-                        <div class="staff-card__inner">
-                            <div class="card__face card__face--front">
-                                <img src="../img/ÚlfurArnar.jpg" alt="Úlfur Arnar Guðjohnsen" class="staff-card__image">
-                            </div>
-                            <div class="card__face card__face--back">
-                                <h2>Úlfur Arnar Guðjohnsen</h2>
-                                <p>Úlfur hefur klifrað síðan hann var 3 ára. Hann stofnaði síðan prílihúsið þegar hann
-                                    var 24 ára.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="staff-cards__rows">
-                <div class="staff-cards__col">
-                    <div class="staff-card">
-                        <div class="staff-card__inner">
-                            <div class="card__face card__face--front">
-                                <img src="../img/Bergrós.jpg" alt="Bergrós Pétursdóttir" class="staff-card__image">
-                            </div>
-                            <div class="card__face card__face--back">
-                                <h2>Bergrós Pétursdóttir</h2>
-                                <p>Bergrós er forritari hjá Prílihúsinu. Ef eitthvað er að, lagar Bergrós það.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="staff-cards__col">
-                    <div class="staff-card">
-                        <div class="staff-card__inner">
-                            <div class="card__face card__face--front">
-                                <img src="../img/Hannes.jpg" alt="Hannes Flóki Andrason" class="staff-card__image">
-                            </div>
-                            <div class="card__face card__face--back">
-                                <h2>Hannes Flóki Andrason</h2>
-                                <p>Hannes sér um peningana. Gefðu Hannesi peninga með því að kaupa eitthvað klikkað hjá
-                                    Prílihúsinu.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Prílihúsið</h1>
+      <nav class="header__nav">
+        <div class="header__nav--fill">Karfa(6)</div>
+        <ul class="header__list">
+          <li class="header__list-item"><a class="header__link" href="../index.html">Forsíða</a></li>
+          <li class="header__list-item"><a class="header__link" href="products.html">Vörur</a></li>
+          <li class="header__list-item"><a class="header__link" href="course.html">Námskeið</a></li>
+          <li class="header__list-item header__list-item--current"><a class="header__link" href="staff.html">Starfsfólk</a></li>
+        </ul>
+        <div class="header__cart">
+          <a class="header__link" href="cart.html">Karfa(6)</a>
         </div>
-        
+      </nav>
+    </header>
+    <main>
+    <div class="staff-cards">
+      <div class="staff-cards__rows">
+        <div class="staff-cards__col staff-cards__col-6 staff-cards__col-12">
+          <div class="staff-card">
+            <div class="staff-card__inner">
+              <div class="card__face card__face--front">
+                <img src="../img/Karítas.jpg" alt="Karítas Hrafnsdóttir" class="staff-card__image">
+              </div>
+              <div class="card__face card__face--back">
+                <h2>Karítas Hrafnsdóttir</h2>
+                <p>Karítas Kennir öll námskeið hjá prílihúsinu. Hún hefur unnið 3 heimsmeistaratitla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="staff-cards__col">
+          <div class="staff-card">
+            <div class="staff-card__inner">
+              <div class="card__face card__face--front">
+                <img src="../img/ÚlfurArnar.jpg" alt="Úlfur Arnar Guðjohnsen" class="staff-card__image">
+              </div>
+              <div class="card__face card__face--back">
+                <h2>Úlfur Arnar Guðjohnsen</h2>
+                <p>Úlfur hefur klifrað síðan hann var 3 ára. Hann stofnaði síðan prílihúsið þegar hann
+                var 24 ára.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="staff-cards__rows">
+        <div class="staff-cards__col">
+          <div class="staff-card">
+            <div class="staff-card__inner">
+              <div class="card__face card__face--front">
+                <img src="../img/Bergrós.jpg" alt="Bergrós Pétursdóttir" class="staff-card__image">
+              </div>
+              <div class="card__face card__face--back">
+                <h2>Bergrós Pétursdóttir</h2>
+                <p>Bergrós er forritari hjá Prílihúsinu. Ef eitthvað er að, lagar Bergrós það.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="staff-cards__col">
+          <div class="staff-card">
+            <div class="staff-card__inner">
+              <div class="card__face card__face--front">
+                <img src="../img/Hannes.jpg" alt="Hannes Flóki Andrason" class="staff-card__image">
+              </div>
+              <div class="card__face card__face--back">
+                <h2>Hannes Flóki Andrason</h2>
+                <p>Hannes sér um peningana. Gefðu Hannesi peninga með því að kaupa eitthvað klikkað hjá
+                Prílihúsinu.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     </main>
 
-    <!-- TODO - setja html fyrir footer -->
-</body>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__row">
+          <div class="footer__col">
+            <h3 class="footer__title">Vöruflokkar</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Nauðsynjavörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Frábærar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Ómissandi vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Ótrúlegar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Magnaðar vörur</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3 class="footer__title">Vöruflokkar</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Trylltar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Geggjaðar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Svakalegar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Fáránlegar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Klikkaðar vörur</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__row">
+          <div class="footer__col">
+            <h3 class="footer__title">Námskeið</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a class="footer__link" href="course.html">V0 - V1 námskeið</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="course.html">V2 - V4 námskeið</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="course.html">V5 - V7 námskeið</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="course.html">Fjallaklifur námskeið</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3 class="footer__title">Síður</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Allar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="staff.html">Starfsfólk</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="course.html">Námskeið</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="cart.html">Karfa</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>© 2019 Prílihúsið</p>
+      </div>
+    </footer>
+  </body>
 
 </html>

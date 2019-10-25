@@ -1,0 +1,22 @@
+@import "config";
+
+.button{
+    font-family: $font-main;
+    background:url("../img/cart.svg") no-repeat 3px 50%;
+    background-size: 20px;
+    padding: 3px;
+    padding-left: 6px + 20px;
+    display: flex;
+    max-width: 200px;
+    border: 0.5px $black solid;
+    border-radius: 3px;
+
+    transition: background-color $transition,
+                border-color $transition;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: $blue;
+    border-color: $blue;
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="is">
 
+<<<<<<< HEAD
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,91 +13,162 @@
         <link rel="stylesheet" href="../styles.css">
         <link rel="stylesheet" href="../grid.css">
 </head>
+=======
+  <head>
+    <meta charset="utf-8">
+    <title>Námskeið</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+>>>>>>> aaa0cc8f06c92f6a93f2d9990557177c71f8876e
 
-<body>
-    <main>
-        <section>
-            <h2>Námskeið</h2>
-            <p>Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri
-                annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
-            <div>
-                <img src="../img/climbing-gym.jpg" alt="Climbing gym">
+  <body>
+      <header class="header">
+          <h1 class="header__title">Prílihúsið</h1>
+          <nav class="header__nav">
+            <div class="header__nav--fill">Karfa(6)</div>
+            <ul class="header__list">
+              <li class="header__list-item"><a class="header__link" href="../index.html">Forsíða</a></li>
+              <li class="header__list-item"><a class="header__link" href="products.html">Vörur</a></li>
+              <li class="header__list-item header__list-item--current"><a class="header__link" href="course.html">Námskeið</a></li>
+              <li class="header__list-item"><a class="header__link" href="staff.html">Starfsfólk</a></li>
+            </ul>
+            <div class="header__cart">
+              <a class="header__link" href="cart.html">Karfa(6)</a>
             </div>
-        </section>
-        <section>
-            <form>
-                <div>
-                    <h2>Almennar upplýsingar</h2>
-                    <div>
-                        <label for="name">Nafn:</label>
-                        <input type="text" id="name" name="name" required autofocus>
-                    </div>
-                    <div>
-                        <label for="address">Heimilisfang:</label>
-                        <input type="text" id="address" name="address" required>
-                    </div>
-                    <div>
-                        <label for="age">Aldur:</label>
-                        <input type="text" id="age" name="age" required>
-                    </div>
-                    <div>
-                        <label for="course">Námskeið:</label>
-                        <select id="course" required>
-                            <option value="">-Vinsamlegast veljið-</option>
-                            <option value="0-1">V0 - V1</option>
-                            <option value="2-4">V2 - V4</option>
-                            <option value="5-7">V5 - V7</option>
-                            <option value="kidscourse">Krakkanámskeið</option>
-                            <option value="mountainclimbing">Fjallaklifur</option>
-                        </select>
-                    </div>
-                </div>
-                <div>
-                    <h2>Greiðsluupplýsingar</h2>
-                    <div>
-                        <label for="creditnumber">Kortanúmer:</label>
-                        <input type="text" id="creditnumber" name="creditnumber" required>
-                    </div>
-                    <div>
-                        <label for="creditholder">Korthafi:</label>
-                        <input type="text" id="creditholder" name="creditholder" required>
-                    </div>
-                    <div>
-                        <div>
-                            <span>Gildistími:</span>
-                            <label for="month">Mán</label>
-                            <select id="month" required>
-                                <option value="">--</option>
-                                <option value="1">01</option>
-                                <option value="2">02</option>
-                                <option value="3">03</option>
-                                <option value="4">04</option>
-                                <option value="5">05</option>
-                                <option value="6">06</option>
-                                <option value="7">07</option>
-                                <option value="8">08</option>
-                                <option value="9">09</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="year">Ár</label>
-                            <select id="year" required>
-                                <option value="">----</option>
-                                <option value="2019">2019</option>
-                                <option value="2020">2020</option>
-                                <option value="2021">2021</option>
-                                <option value="2022">2022</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <button>Skrá</button>
-            </form>
-        </section>
+          </nav>
+        </header>
+    <main>
+    <section>
+      <h2>Námskeið</h2>
+      <p>Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri
+      annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
+      <div>
+        <img src="../img/climbing-gym.jpg" alt="Climbing gym">
+      </div>
+    </section>
+    <section>
+      <form>
+        <div>
+          <h2>Almennar upplýsingar</h2>
+          <div>
+            <label for="name">Nafn:</label>
+            <input type="text" id="name" name="name" required autofocus>
+          </div>
+          <div>
+            <label for="address">Heimilisfang:</label>
+            <input type="text" id="address" name="address" required>
+          </div>
+          <div>
+            <label for="age">Aldur:</label>
+            <input type="text" id="age" name="age" required>
+          </div>
+          <div>
+            <label for="course">Námskeið:</label>
+            <select id="course" required>
+              <option value="">-Vinsamlegast veljið-</option>
+              <option value="0-1">V0 - V1</option>
+              <option value="2-4">V2 - V4</option>
+              <option value="5-7">V5 - V7</option>
+              <option value="kidscourse">Krakkanámskeið</option>
+              <option value="mountainclimbing">Fjallaklifur</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <h2>Greiðsluupplýsingar</h2>
+          <div>
+            <label for="creditnumber">Kortanúmer:</label>
+            <input type="text" id="creditnumber" name="creditnumber" required>
+          </div>
+          <div>
+            <label for="creditholder">Korthafi:</label>
+            <input type="text" id="creditholder" name="creditholder" required>
+          </div>
+          <div>
+            <div>
+              <span>Gildistími:</span>
+              <label for="month">Mán</label>
+              <select id="month" required>
+                <option value="">--</option>
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+                <option value="6">06</option>
+                <option value="7">07</option>
+                <option value="8">08</option>
+                <option value="9">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+            </div>
+            <div>
+              <label for="year">Ár</label>
+              <select id="year" required>
+                <option value="">----</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button>Skrá</button>
+      </form>
+    </section>
     </main>
-</body>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__row">
+          <div class="footer__col">
+            <h3 class="footer__title">Vöruflokkar</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Nauðsynjavörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Frábærar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Ómissandi vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Ótrúlegar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Magnaðar vörur</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3 class="footer__title">Vöruflokkar</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Trylltar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Geggjaðar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Svakalegar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Fáránlegar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Klikkaðar vörur</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__row">
+          <div class="footer__col">
+            <h3 class="footer__title">Námskeið</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a class="footer__link" href="course.html">V0 - V1 námskeið</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="course.html">V2 - V4 námskeið</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="course.html">V5 - V7 námskeið</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="course.html">Fjallaklifur námskeið</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3 class="footer__title">Síður</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a class="footer__link" href="products.html">Allar vörur</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="staff.html">Starfsfólk</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="course.html">Námskeið</a></li>
+              <li class="footer__list-item"><a class="footer__link" href="cart.html">Karfa</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>© 2019 Prílihúsið</p>
+      </div>
+    </footer>
+  </body>
 
 </html>
