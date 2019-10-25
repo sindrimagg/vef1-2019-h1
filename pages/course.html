@@ -44,9 +44,9 @@
         <img class="course__img" src="../img/climbing-gym.jpg" alt="Climbing gym">
       </div>
     </section>
-    <section class="course__row">
-      <form>
-        <div class="course__col">
+    <section>
+      <form class="course__row">
+        <div class="course__col--col5">
           <h2 class="course__title">Almennar upplýsingar</h2>
           <div class="course__question">
             <label class="course__label" for="name">Nafn:</label>
@@ -72,7 +72,8 @@
             </select>
           </div>
         </div>
-        <div class="course__col">
+        <div class="--col1"></div>
+        <div class="course__col--col5">
           <h2 class="course__title">Greiðsluupplýsingar</h2>
           <div class="course__question">
             <label class="course__label" for="creditnumber">Kortanúmer:</label>
@@ -85,37 +86,38 @@
           <div class="course__question">
             <span class="course__label">Gildistími:</span>
             <div class="course__input">
-            <div>
-              <label for="month">Mán</label>
-              <select id="month" required>
-                <option value="">--</option>
-                <option value="1">01</option>
-                <option value="2">02</option>
-                <option value="3">03</option>
-                <option value="4">04</option>
-                <option value="5">05</option>
-                <option value="6">06</option>
-                <option value="7">07</option>
-                <option value="8">08</option>
-                <option value="9">09</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-              </select>
-            </div>
-            <div>
-              <label for="year">Ár</label>
-              <select id="year" required>
-                <option value="">----</option>
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
-              </select>
-            </div>
+              <div class="course__input__div">
+                <label class="course__input__div__label" for="month">Mán</label>
+                <select class="course__input__div__input" id="month" required>
+                  <option value="">--</option>
+                  <option value="1">01</option>
+                  <option value="2">02</option>
+                  <option value="3">03</option>
+                  <option value="4">04</option>
+                  <option value="5">05</option>
+                  <option value="6">06</option>
+                  <option value="7">07</option>
+                  <option value="8">08</option>
+                  <option value="9">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+              <div class="course__input__div">
+                <label class="course__input__div__label" for="year">Ár</label>
+                <select class="course__input__div__input" id="year" required>
+                  <option value="">----</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                </select>
+              </div>
             </div>
           </div>
         </div>
+        <div class="--col1"></div>
         <button class="course__button">Skrá</button>
       </form>
     </section>

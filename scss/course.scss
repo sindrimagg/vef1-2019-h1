@@ -1,8 +1,85 @@
 @import "config";
 
-.course__main {
-    padding: 0 10px;
-    @media (min-width: 1200px) {
-        padding: 0;
+
+
+.course {
+
+    &__main {
+        padding: 0 10px;
+        @media (min-width: 1200px) {
+            padding: 0;
+        }
     }
+   
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        @media (min-width: 1200px) {
+        margin: 0 -10px;
+        }
+    }
+    
+    &__col {
+        display: flex;
+        flex-direction: column;
+        @include columns(12);
+    
+        @media (min-width: 700px) {
+            @include columns(6);
+            &--col5 {
+                @include columns(5);
+            }
+        }
+        
+    }
+
+    &__title {
+        font-family: $font-heading;
+    }
+    
+    &__text {
+
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__question {
+        display: flex;
+    }
+
+    &__label {
+        flex: 1;
+    }
+
+    &__input {
+        flex: 2;
+        display: flex;
+        justify-content: space-between;
+
+        &__div {
+            display: flex;
+            width: 45%;
+
+            &__label {
+                flex: 1;
+            }
+
+        }
+
+    }
+
+    
+
+    &__button {
+        margin: 0 auto;
+        cursor: pointer;
+        background: $blue;
+        border: 0;
+    }
+}
+
+.--col1 {
+    @include columns();
 }
