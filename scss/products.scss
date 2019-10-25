@@ -17,35 +17,25 @@
 
 .product {
     display: flex;
+    width: 100%;
+    @media (min-width: 700px) {
+      @include columns(6);
+    }
     flex-direction: column;
     @include columns(12);
 
-  width: 100%;
-  @media (min-width: 700px) {
-    @include columns(6);
-  }
   @media (min-width: 1000px) {
     @include columns(4);
-  }
-
-  &__image {
   }
 
   &__img {
     width: 100%;
   }
 
-  &__content {
-
-  }
-
-  &__info {
-  }
-
   &__title {
+    margin: $gutter 0;
     font-family: $font-heading;
     font-size: 2.25em;
-    margin: $gutter 0;
   }
 
   &__text {
@@ -53,13 +43,13 @@
   }
 
   &__price {
+    margin: $gutter 0;
+    font-family: $font-heading;
     font-size: 1.3125em;
     font-weight: 700;
-    font-family: $font-heading;
-    margin: $gutter 0;
   }
 
-  &__form {   
+  &__form {
     display: flex;
     flex-wrap: wrap;
   }
@@ -70,8 +60,8 @@
 
   &__input {
     flex: 1;
-    border-radius: 3px;
     margin-right: 10px;
+    border-radius: 3px;
   }
 
   &__button {
@@ -86,6 +76,7 @@
       background-color $transition,
       border-color $transition;
   }
+
   &__button:hover {
     cursor: pointer;
     background-color: $blue;
