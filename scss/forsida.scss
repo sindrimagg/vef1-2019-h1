@@ -1,14 +1,19 @@
 .grid {
-  max-width: $max-width+$gutter*2;
+  max-width: $max-width;
   display: flex;
   flex-driection: column;
   flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
+  padding: 0 $gutter;
 }
 
 .grid__col {
-  padding: 0 $gutter;
+  @include columns(12);
+}
+
+.grid__row {
+  @include row();
 }
 
 .grid__title {
@@ -43,26 +48,36 @@
   padding: 1em 0em;
   width: 50%;
   text-align: center;
+  transition: background-color $transition, color $transition;
+}
+
+.grid__link:hover {
+  background-color: $orange;
+  color: $white;
 }
 
 @media (min-width: 800px) {
   .grid__col {
     width: 50%;
-    padding: 0 $gutter/2;
-    margin: 0;
+    @include columns(6);
+  }
+
+  .grid__row {
+    display: flex;
+    margin-bottom: $gutter * 2;
   }
 
   .grid__text {
     margin: 0;
   }
 
-  .grid__row {
-    display: flex;
-    margin: $gutter*2 0;
-    padding: 0 $gutter/2;
-  }
-
   .grid__col--first800 {
     order: -1;
+  }
+}
+
+@media (min-width: $max-width + 2 * $gutter) {
+  .grid {
+    padding: 0;
   }
 }
