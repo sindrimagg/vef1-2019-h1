@@ -1,5 +1,4 @@
 @import "scss/config";
-
 * {
   padding: 0;
   margin: 0;
@@ -14,7 +13,7 @@
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
-  font-size: 16px;
+  font-family: $font-main;
   // TODO fleiri grunn stillingar
 }
 
@@ -32,3 +31,7 @@ main { /*stylelint-disable-line*/
 @import "scss/products";
 @import "scss/cart";
 @import "scss/button";
+@import "scss/config.scss";
+@import "scss/forsida.scss";
+@import "scss/header.scss";
+@import "scss/footer.scss";
