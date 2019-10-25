@@ -5,15 +5,26 @@
         font-family: $font-heading;
         font-size: 1.5rem;
         font-weight: bold;
+        text-align: left;
     }
     &__price{
         font-weight: bold;
-        align-self: flex-end;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        flex:1;
     }
 }
 .cart__items{
     display: flex;
     flex-wrap: wrap;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 $gutter;
+    @media(min-width: $max-width){
+    padding: 0;
+    }
 }
 .cart__item{
     width: 100%;
