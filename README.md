@@ -36,7 +36,9 @@ npm run lint
 ```
 ---
 ## Útskýring
-Allar síður fyrir utan forsíðu eru geymdar í pages möppu. Sass skrár geymdar í scss möppu. [Config.scss](scss/config.scss) inniheldur grunnskilyrði líkt og litapallettu, mixin fyrir grid og leturgerðarfjölskyldur. Sérstakar SASS skrár eru fyrir header, footer og hverja síðu fyrir sig (athuga að SASS skráin fyrir staff.html heitir [flipcards.scss](scss/flipcards.scss). 
+Allar síður fyrir utan forsíðu eru geymdar í pages möppu. Sass skrár eru geymdar í scss möppu og importaðar í styles.scss sem er svo þýtt í styles.css. 
+
+[Config.scss](scss/config.scss) inniheldur grunnskilyrði líkt og litapallettu, mixin fyrir grid og leturgerðarfjölskyldur. Sérstakar SASS skrár eru fyrir header, footer og hverja síðu fyrir sig (athuga að SASS skráin fyrir staff.html heitir [flipcards.scss](scss/flipcards.scss)). 
 
 Það er sérstök skrá, [button.scss](scss/button.scss), fyrir takkana sem innihalda cart icon. Aðrir takkar hafa klasann grid__link sem tekinn er frá [forsida.scss](scss/forsida.scss).
 Formið í cart endurnýtir að mestu kóða úr [products.html](pages/products.html) og [products.scss](scss/products.scss).
