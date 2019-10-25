@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser-sync": "browser-sync start --server --files index.html styles.css pages/*.html",
-    "sass": "node-sass --source-map-embed --watch styles.scss styles.css",
+    "sass": "node-sass --source-map-embed styles.scss styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch styles.scss styles.css",
     "lint": "stylelint *.scss scss/*.scss --syntax scss",
-    "dev": "concurrently npm:sass npm:browser-sync"
+    "dev": "concurrently npm:sass npm:browser-sync npm:sass-watch"
   },
   "repository": {
     "type": "git",
