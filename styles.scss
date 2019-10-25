@@ -21,9 +21,10 @@ main { /*stylelint-disable-line*/
   font-family: $font-main;
   max-width: $max-width;
   margin: auto;
-  // padding: 0 $gutter;
-  //idk hver setti þetta padding, það fokkar í skjalinu mínu amk
-  //kvedja jgh
+  padding: 0 $gutter;
+  @media(min-width: $max-width + 2*$gutter){
+    padding: 0;
+  }
 }
 
 // TODO sækja allar sass skrár

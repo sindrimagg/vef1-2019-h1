@@ -38,7 +38,9 @@
     }
     &__text{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        justify-content: left;
         height: 100%;
     }
     &__form{
