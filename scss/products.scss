@@ -1,28 +1,28 @@
 @import "config";
 
 .products {
-    display: flex;
-    flex-wrap: wrap;
-    @media (min-width: 1200px) {
-        margin: 0 -10px;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  @media (min-width: 1200px) {
+    margin: 0 -10px;
+  }
 
-    &__main {
-        padding: 0 10px;
-        @media (min-width: 1200px) {
-            padding: 0;
-        }
+  &__main {
+    padding: 0 10px;
+    @media (min-width: 1200px) {
+      padding: 0;
     }
+  }
 }
 
 .product {
-    display: flex;
-    width: 100%;
-    @media (min-width: 700px) {
-      @include columns(6);
-    }
-    flex-direction: column;
-    @include columns(12);
+  display: flex;
+  width: 100%;
+  @media (min-width: 700px) {
+    @include columns(6);
+  }
+  flex-direction: column;
+  @include columns(12);
 
   @media (min-width: 1000px) {
     @include columns(4);
@@ -39,7 +39,7 @@
   }
 
   &__text {
-      height: 2.5*$gutter;
+    height: 2.5*$gutter;
   }
 
   &__price {
