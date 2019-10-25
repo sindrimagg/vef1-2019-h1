@@ -1,8 +1,18 @@
 @import "config";
 
+.products__main {
+    padding: 0 10px;
+    @media (min-width: 1200px) {
+        padding: 0;
+    }
+}
+
 .products {
     display: flex;
     flex-wrap: wrap;
+    @media (min-width: 1200px) {
+    margin: 0 -10px;
+    }
 }
 
 .product {
