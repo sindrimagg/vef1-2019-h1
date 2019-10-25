@@ -1,6 +1,7 @@
 @import "config";
 @import "button";
 .cart{
+<<<<<<< HEAD
   &__title{
     font-family: $font-heading;
     font-size: 2.25rem;
@@ -16,6 +17,7 @@
     flex-direction: column;
     flex:1;
   }
+=======
     &__title{
         display: flex;
         font-family: $font-heading;
@@ -33,6 +35,7 @@
         flex-direction: column;
         flex:1;
     }
+>>>>>>> b5373f7485c073ca5a4dcdee343ec4b74b564a2e
 }
 .cart__items{
   display: flex;
@@ -70,6 +73,7 @@
     width: 100%;
     justify-content: left;
     height: 100%;
+<<<<<<< HEAD
     padding-top: $gutter*3;
     padding-bottom: $gutter;
   }
@@ -83,6 +87,7 @@
       display: flex;
       max-width: 200px;
       margin-right: $gutter;
+=======
     &__rows{
         @include row();
     }
@@ -122,6 +127,7 @@
             max-width: $gutter*4;
             margin-right: $gutter/2;
         }
+>>>>>>> b5373f7485c073ca5a4dcdee343ec4b74b564a2e
     }
   }
 }
