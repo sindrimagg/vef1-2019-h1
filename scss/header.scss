@@ -5,6 +5,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+
+  margin-bottom: 2*$gutter;
 }
 
 .header__title {
@@ -48,11 +50,18 @@
 
 .header__list-item--current {
   text-decoration: underline;
+  transition: color $transition;
 }
 
 .header__link {
   text-decoration: none;
   color: $black;
+  transition: color $transition;
+}
+
+.header__link:hover, 
+.header__list-item--current:hover {
+  color: $white;
 }
 
 @media (min-width: 800px) {
