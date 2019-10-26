@@ -1,11 +1,5 @@
 # Hópverkefni 1
 ---
-## TODO
-
-- Gera README
-- laga button í námskeið
-- laga lint
----
 ## Aðilar í hóp
 
 ### Jón Gunnar Hannesson
