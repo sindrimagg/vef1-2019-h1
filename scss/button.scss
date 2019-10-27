@@ -16,12 +16,11 @@
     border-color $transition;
 
   &--products {
+    max-width: none;
     padding: 7px;
     padding-left: 30px;
-    max-width: none;
     margin-right: 0;
   }
-  
 }
 
 .button:hover {

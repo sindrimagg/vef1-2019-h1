@@ -27,8 +27,5 @@
     "concurrently": "^5.0.0",
     "stylelint": "^9.10.1",
     "stylelint-config-primer": "^8.2.1"
-  },
-  "dependencies": {
-    "@primer/css": "^13.1.0"
   }
 }
