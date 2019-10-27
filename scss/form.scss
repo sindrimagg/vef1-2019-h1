@@ -58,6 +58,14 @@
     margin: $gutter auto -10px auto;
     border: 0;
   }
+
+  &--margin {
+    margin: 0 0.5*$gutter;
+  }
+
+  &--noborder {
+    border: 0;
+  }
 }
 
 .--noborder {
