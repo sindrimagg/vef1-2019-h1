@@ -14,6 +14,14 @@
   transition:
     background-color $transition,
     border-color $transition;
+
+  &--products {
+    padding: 7px;
+    padding-left: 30px;
+    max-width: none;
+    margin-right: 0;
+  }
+  
 }
 
 .button:hover {
