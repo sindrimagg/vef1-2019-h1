@@ -35,6 +35,6 @@ Allar síður fyrir utan forsíðu eru geymdar í pages möppu. Sass skrár eru 
 [Config.scss](scss/config.scss) inniheldur grunnskilyrði líkt og litapallettu, mixin fyrir grid og leturgerðarfjölskyldur. Sérstakar SASS skrár eru fyrir header, footer og hverja síðu fyrir sig (athuga að SASS skráin fyrir staff.html heitir [flipcards.scss](scss/flipcards.scss)). 
 
 Það er sérstök skrá, [button.scss](scss/button.scss), fyrir takkana sem innihalda cart icon. Aðrir takkar hafa klasann grid__link sem tekinn er frá [forsida.scss](scss/forsida.scss).
-Formið í cart endurnýtir að mestu kóða úr [products.html](pages/products.html) og [products.scss](scss/products.scss).
+Form í course.html og staff.html eru hin sömu. Sérstök skrá, [form.scss](/scss/form.scss) var skrifuð fyrir það.
 
 
