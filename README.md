@@ -12,7 +12,7 @@
 
 ### Ægir Örn Kristjánsson
  - aok10@hi.is
- - [aegirok](https://github.com/aegirok)
+ - [aok10](https://github.com/aok10)
  ---
 ## Að keyra verkefnið
 Verkefnið er skrifað í SASS og HTML, notast er við [node.js](https://nodejs.org/en/) með pökkum [node-sass](https://www.npmjs.com/package/node-sass) (til að þýða .scss skrár í .css) og [browser-sync](https://www.npmjs.com/package/browser-sync).
