@@ -23,7 +23,7 @@
   "homepage": "https://github.com/sindrimagg/vef1-2019-h1#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "concurrently": "^5.0.0",
     "stylelint": "^9.10.1",
     "stylelint-config-primer": "^8.2.1",
