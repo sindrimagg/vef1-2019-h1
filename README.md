@@ -4,7 +4,7 @@
 
 ### Jón Gunnar Hannesson
  - jgh12@hi.is
- - [jugguhu](https://github.com/jugguhu)
+ - [jongvnnar](https://github.com/jongvnnar)
 
 ### Sindri Magnússon
  - sim42@hi.is
